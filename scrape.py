@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+
+# Author: Kieran McCool
+# Description: This script scrapes http://uesp.net (the unofficial elder scrolls pages wiki)
+#              for all names in the Elder Scrolls universe (so far) by race and gender.
+#              It outputs files for each into the ./DataSets directory.
+
 import requests
 from re import sub
 from bs4 import BeautifulSoup, Tag
